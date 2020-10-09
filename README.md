@@ -26,8 +26,12 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 --Accessability on the web is used for adapting websites to the device they are using to view them. The general idea of accessability also extends to individuals with
 --sight impediments; html will describe images using the alt tag, etc.
 2. Talk about 3 different things you can do to ensure your website is accessible. 
+--Use semantic HTML, use alt tags, use media queries.
 3. How would you explain the concept of a variable to someone new to programming?
+--A variable is a way to hold a value of something. there are three ways to define a variable in js; var, const, and let.
 4. What is the purpose of using functions in code?
+--functions are a way of writing a block of code that produces something. It's ideal to write a function such that you only have to write it once, and can use it for lots of
+--different things.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
