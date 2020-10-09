@@ -235,11 +235,16 @@ function getArtistByIndex(array,index) {
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Create a function called get20s() that takes data as an argument and returns an array with names of artists who were born in and died in 20th century (1900-2000) example born in 1901 and died in 1959 - included / born in 1889 and died in 1925 not included - should return ["Salvador Dali", "Frida Kahlo"]*/
 //ONLY THE 20TH CENTURY//
-function get20s(anArray, dateBorn,dateDied){
+//change date range to a number
+//establish max-min(1900-1991=-99,)
+//iterate through array, 1 by 1 convert life-range to number, compare number with max-min conditions*/
+
+function get20s(anArray){
   let returnArray=[];
   for(let i=0;i<anArray.length;i++){
-    if(anArray[i].years>=1900 && anArray[i]<=2000){
-      returnArray.push(anArray[i]);
+    let testNum= parseFloat(anArray[i].years)
+    if(testNum>=1900){
+      returnArray.push(anArray[i].name);
     }
   }return returnArray;
 }
